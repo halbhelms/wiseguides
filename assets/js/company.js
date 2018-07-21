@@ -1,17 +1,3 @@
-{/* <section class="left contact">
-<h5 class="left">Contact Us</h5>
-<div>
-  <label for="name">Name</label> <input type="text" id="name" />
-</div>
-<div>
-  <label for="email">Email</label> <input type="text"  id="email" />
-</div>
-<div>
-  <input type="checkbox" id="no-rat" /> <label for="no-rat">I am not a law enforcement agent.</label>
-</div>
-<button>Send</button>
-</section> */}
-
 document.getElementById('contact').addEventListener('click', (event) => {
   processContactRequest();
 })
